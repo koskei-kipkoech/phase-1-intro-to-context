@@ -96,13 +96,13 @@ function calculatePayroll(employeeRecords){
     },0);
 }
 createTimeInEvent(employeeRecords[0], '2024-10-09 0900');
-createTimeOutEvent(employeeRecords[0], '2024-10-09 0900');
+createTimeOutEvent(employeeRecords[0], '2024-10-09 1700');
 
 createTimeInEvent(employeeRecords[1], '2024-10-09 0900');
-createTimeOutEvent(employeeRecords[1], '2024-10-09 0900');
+createTimeOutEvent(employeeRecords[1], '2024-10-09 1700');
 
 createTimeInEvent(employeeRecords[2], '2024-10-09 0900');
-createTimeOutEvent(employeeRecords[2], '2024-10-09 0900');
+createTimeOutEvent(employeeRecords[2], '2024-10-09 1700');
 
 const totalPayRoll = calculatePayroll(employeeRecords);
 console.log("The total payroll is: ",totalPayRoll);
